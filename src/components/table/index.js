@@ -1,6 +1,21 @@
+/*
+ * File: index.js
+ * Project: redux-resrm
+ * File Created: Wednesday, 9th May 2018 12:51:06 pm
+ * Author: geekrainy (geekrainy@gmail.com)
+ * -----
+ * Last Modified: Wednesday, 9th May 2018 12:51:09 pm
+ * Modified By: geekrainy (geekrainy@gmail.com>)
+ * -----
+ * Copyright - 2018 https://rainylog.com, https://github.com/geekrainy
+ */
+
 import React from 'react';
-import { Table, Button, Icon, Input, Checkbox } from 'antd';
+import { Table, Button, Icon, Input, Checkbox, Form, Row, Col } from 'antd';
 import './index.css';
+import WrappedTableSearch from '../tablesearch';
+const FormItem = Form.Item;
+
 
 class EditableCell extends React.Component {
   state = {
@@ -269,6 +284,7 @@ class SrmTable extends React.Component {
 
     return (
       <div>
+        <WrappedTableSearch />
         <Button
           type="primary"
           onClick={this.start}

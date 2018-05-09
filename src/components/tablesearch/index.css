@@ -1,0 +1,19 @@
+/*
+ * File: index.css
+ * Project: redux-resrm
+ * File Created: Wednesday, 9th May 2018 12:50:12 pm
+ * Author: geekrainy (geekrainy@gmail.com)
+ * -----
+ * Last Modified: Wednesday, 9th May 2018 12:50:53 pm
+ * Modified By: geekrainy (geekrainy@gmail.com>)
+ * -----
+ * Copyright - 2018 https://rainylog.com, https://github.com/geekrainy
+ */
+
+.table-search .ant-form-item {
+  display: flex;
+}
+
+.table-search .ant-form-item-control-wrapper {
+  flex: 1;
+}

@@ -1,3 +1,15 @@
+/*
+ * File: main.js
+ * Project: redux-resrm
+ * File Created: Wednesday, 9th May 2018 12:51:30 pm
+ * Author: geekrainy (geekrainy@gmail.com)
+ * -----
+ * Last Modified: Wednesday, 9th May 2018 12:51:32 pm
+ * Modified By: geekrainy (geekrainy@gmail.com>)
+ * -----
+ * Copyright - 2018 https://rainylog.com, https://github.com/geekrainy
+ */
+
 import React from 'react';
 import { Layout, Menu, Icon, Button, Tabs } from 'antd';
 import SrmTable from '../components/table';
